@@ -24,7 +24,7 @@ public class jpaDemoMain {
 
 		//Student stu = em.find(Student.class, 4);
 		
-        //em.persist(stu);
+        em.persist(stu);
         
         StudentDetails s =em.find(StudentDetails.class,12);
         
